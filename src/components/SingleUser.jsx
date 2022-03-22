@@ -3,7 +3,7 @@ import React from 'react'
 const  SingleUser = ({user}) => {
   return (
     <div className='single-user'>
-        <img src={user.picture.large} alt="" srcset="" />
+        <img src={user.picture.medium} alt="" srcset="" />
         <div className='user-info'>
             <h3>
                 {user.name.first} {user.name.last}
